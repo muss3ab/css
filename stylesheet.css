@@ -1,0 +1,36 @@
+ /* Custom cursors */
+ .button {
+    cursor: url('button-cursor.png'), auto;
+  }
+  
+  .slider {
+    cursor: url('slider-cursor.png'), auto; 
+  }
+
+  /* Transitions */
+  .button {
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #8bc34a;
+  }
+  
+  /* Transforms */ 
+  .cube {
+    transform: rotateX(-30deg) rotateY(30deg);
+    transition: transform 1s ease;
+  }
+  
+  .cube:hover {
+    transform: rotateX(0deg) rotateY(0deg); 
+  }
+  
+  /* Pseudo-elements */
+  .quote::before {
+    content: open-quote;
+  }
+  
+  .quote::after {
+    content: close-quote;
+  }
